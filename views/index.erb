@@ -14,5 +14,15 @@
 <% else %>
   <p>1 does not equal 2.</p>
 <% end %>
+
+
+
+    <ul>
+      <% wall_posts.each do |post| %>
+        <li><%= post %></li>
+      <% end %>
+    </ul>
+
+    
   </body>
 </html>
